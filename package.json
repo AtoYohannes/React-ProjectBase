@@ -1,14 +1,36 @@
 {
-  "name": "were",
+  "name": "magazine",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "bootstrap": "4.5.0",
+    "bulma": "^0.9.0",
+    "bulma-helpers": "^0.3.12",
+    "classnames": "^2.2.6",
+    "material-design-icons-iconfont": "^5.0.1",
+    "material-icons": "^0.3.1",
+    "node-sass": "^4.14.1",
     "react": "^16.13.1",
+    "react-animated-slider": "^2.0.0",
+    "react-bulma-components": "^3.4.0",
+    "react-component-queries": "^2.3.0",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.3"
+    "react-ga": "^3.1.2",
+    "react-icons": "^3.10.0",
+    "react-pdf": "^4.2.0",
+    "react-redux": "^7.2.1",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "3.4.1",
+    "react-shimmer-effect": "^1.0.9",
+    "react-sizeme": "^2.6.12",
+    "reactjs-pdf-reader": "^1.0.12",
+    "reactstrap": "^8.5.1",
+    "redux": "^4.0.5",
+    "react-images-upload": "^1.2.8"
+
   },
   "scripts": {
     "start": "react-scripts start",

@@ -1,0 +1,41 @@
+html { 
+    height: 100% 
+ }
+ .body { 
+    margin: 0; 
+    padding: 0; 
+    height: 100% ;
+ }
+ .side-drawer { 
+    background:$background;
+    position: fixed;
+    border-radius: 10px;
+    margin-top: 15%;
+    width:auto;
+    padding: 40px;
+    right: 0;
+    z-index: 200;
+    box-shadow: 1px 0px 7px rgba(0,0,0,0.5); 
+    transform: translateX(100%);
+    transition: transform 0.5s ease-out;
+ }
+ .side-drawer.open {
+    transform: translateX(0);
+    margin-top: 15%;
+    height: auto;
+    overflow: scroll;
+    border-radius: 10px;
+    margin-right: 10px;
+    padding: 40px;
+
+
+ }
+ .backdrop {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.6);
+    z-index: 100;
+    top: 0;
+    right: 0;
+}

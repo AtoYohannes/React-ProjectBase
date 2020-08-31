@@ -1,0 +1,61 @@
+.cr-header {
+  // margin-bottom: $spacer * .2;
+  border-bottom: $border-width solid $border-color;
+  &__nav-right {
+    flex-direction: row;
+    display: flex;
+    justify-self: flex-end;
+    margin-left: auto;
+  }
+  &__notification-popover {
+    &.popover {
+      width: 320px;
+      max-width: 320px;
+      max-height: 100vh;
+      overflow-y: scroll;
+      cursor: pointer;
+    }
+  }
+}
+.searchContainer {
+  width: 400px
+}
+.searchImgContainer {
+  width: 200px;
+  height: 150px;
+  background-color: #ffffff;
+  object-fit:cover;
+}
+.searchImgContainer img {
+  height: 300%;
+  position: relative;
+  vertical-align: middle;
+  height: 100%;
+  width: 100%;
+  object-fit:cover;
+}
+.searchResultsHeader {
+  margin-bottom: 10px;
+}
+.SearchPopover {
+  margin-top: 30px;
+}
+.popoverSearch {
+  box-shadow:  7px 7px 7px darken($color: #d4d4d4, $amount: 5);;
+
+}
+.headerLogoContainer {
+  margin-left: 40px;
+}
+.divider {
+  background-color: #FFFFFF;
+  margin-top: 1px;
+  margin-bottom: 1px;
+}
+.scrolledAppBar {
+  button {
+    color: $light;
+    border-color: $light;
+    
+  }
+}

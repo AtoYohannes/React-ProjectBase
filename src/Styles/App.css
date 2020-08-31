@@ -2,14 +2,24 @@
   text-align: center;
 }
 
-.App-logo {
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
+} */
+.App-logo {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+  margin-left: 25px;
+  /* margin-bottom: 14px; */
+  animation: App-logo-spin alternate 2.5s infinite;
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+
+  .App-logo2 {
+    width: 100px;
+    margin-right: 20px;
   }
 }
 

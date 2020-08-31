@@ -1,0 +1,23 @@
+.footerContainer {
+    padding: 30px;
+}
+
+.footerContents {
+    align-self: center;
+}
+
+.footerIcon {
+    height: 60px;
+    flex-direction: column;
+    margin-top: 30px;
+    align-self: center;
+    width: 100%
+}
+
+.footerTexts {
+    transition: transform .2s;
+
+}
+.footerTexts:hover {
+    transform: scale(1.010);
+}
