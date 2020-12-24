@@ -104,7 +104,7 @@ class Header extends React.Component {
                         action
                         className="border-light"
                       >
-                        <MdHelp className="mr-3" /> How Magazine Works
+                        <MdHelp className="mr-3" /> How Project Title Works
                       </ListGroupItem>
 
                       <ListGroupItem
@@ -112,7 +112,8 @@ class Header extends React.Component {
                         action
                         className="border-light"
                       >
-                        <MdPanoramaFishEye className="mr-3" /> Browse Magazine
+                        <MdPanoramaFishEye className="mr-3" /> Browse Project
+                        Title
                       </ListGroupItem>
                       <ListGroupItem
                         tag="button"

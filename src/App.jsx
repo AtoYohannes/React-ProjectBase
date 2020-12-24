@@ -8,7 +8,6 @@ import { MainLayout } from "./Components/Layout";
 
 const DemoPage = React.lazy(() => import("./Pages/DemoPage"));
 
-
 const getBasename = () => {
   return `/${process.env.PUBLIC_URL.split("/").pop()}`;
 };
@@ -33,8 +32,6 @@ function App() {
               }
             >
               <Route exact path={routes.homePage} component={DemoPage} />
-
-
             </React.Suspense>
           </MainLayout>
         </React.Fragment>
@@ -43,29 +40,5 @@ function App() {
     </BrowserRouter>
   );
 }
-
-// const query = ({ width }) => {
-//   if (width < 575) {
-//     return { breakpoint: "xs" };
-//   }
-
-//   if (576 < width && width < 767) {
-//     return { breakpoint: "sm" };
-//   }
-
-//   if (768 < width && width < 991) {
-//     return { breakpoint: "md" };
-//   }
-
-//   if (992 < width && width < 1199) {
-//     return { breakpoint: "lg" };
-//   }
-
-//   if (width > 1200) {
-//     return { breakpoint: "xl" };
-//   }
-
-//   return { breakpoint: "xs" };
-// };
 
 export default App;
