@@ -1,5 +1,5 @@
 import React from "react";
-import "./Styles/magazine.scss";
+import "./Styles/projectTitle.scss";
 import "react-animated-slider/build/horizontal.css";
 import { BrowserRouter, Route, Switch, Redirect } from "react-router-dom";
 import routes from "./Config/routes";
@@ -17,7 +17,7 @@ function App() {
     <BrowserRouter basename={getBasename()}>
       <Switch>
         {/* <LayoutRoute
-              exact
+              exactgit
               path={routes.signIn}
               layout={EmptyLayout}
               component={SignInPage}
